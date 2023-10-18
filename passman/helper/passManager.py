@@ -7,7 +7,7 @@ class Manager:
 
     def user_input(self):
 
-        length = int(input("Enter length: "))
+        length = int(input("Enter length for your password: "))
         print("Choose complexity level:\n1.low\n2.medium\n3.high")
         complexity = input("Enter complexity level: ")
 
@@ -17,7 +17,9 @@ class Manager:
 
         return password
 
-    
+
+
+
 
 
 

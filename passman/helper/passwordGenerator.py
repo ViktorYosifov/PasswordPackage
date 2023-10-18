@@ -3,6 +3,8 @@ import string
 
 
 class Generator:
+    """Generates password based on the preferences of the client
+    about the length and the complexity of his password"""
 
     def generate_password(self, length, complexity):
 
